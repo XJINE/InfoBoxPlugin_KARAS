@@ -26,4 +26,4 @@ There is some valid options, "note", "help", "caution", "warning", and "download
 ## License
 
 This plugin is licensed under BSD-style license (same as KARAS).
-Please check this Sourcecode.
+Please check this source code.
