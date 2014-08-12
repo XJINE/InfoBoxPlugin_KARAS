@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+div.infobox
+{
+	display: table;
+	margin: 15px auto;
+	width: 95%;
+	height: 80px;/*affect like min-height.*/
+	border-radius: 0.4em;
+	background-repeat: no-repeat;
+	background-position: 30px center;
+	color: #595959;
+}
+
+div.infobox_contents > p
+{
+	margin: 0px;
+}
+
+div.infobox_contents > p + p
+{
+	margin-top: 1em;
+}
+
+div.infobox > div.infobox_contents
+{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 1em 1em 1em 100px;
+	line-height: 1.7em;
+}
+
+div.infobox_plain > div.infobox_contents
+{
+	padding: 1em;
+}
+
+div.infobox_note
+{
+	background-color: #DDF6F9;
+	background-image: url("./note.png");
+}
+
+div.infobox_help
+{
+	background-color: #DAE3F3;
+	background-image: url("./help.png");
+}
+
+div.infobox_caution
+{
+	background-color: #FFF7A0;
+	background-image: url("./caution.png");
+}
+
+div.infobox_warning
+{
+	background-color: #FFCCCC;
+	background-image: url("./warning.png");
+}
+
+div.infobox_download
+{
+	background-color: #E2F0D9;
+	background-image: url("./download.png");
+}
+
+div.infobox_plain
+{
+	background-color: #EFEFEF;	
+}

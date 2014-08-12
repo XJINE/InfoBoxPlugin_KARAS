@@ -1,0 +1,45 @@
+= Infobox plugin sample
+
+[[infobox::note::
+Note style.
+]]
+
+[[infobox::help::
+Help style.
+]]
+
+[[infobox::caution::
+Caution style.
+]]
+
+[[infobox::warning::
+Warning style.
+]]
+
+[[infobox::download::
+Download style.
+]]
+
+[[infobox::
+Plain style.　When there is nothing valid option.
+]]
+
+[[infobox::
+Long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long text.
+]]
+
+[[infobox::download::
+Long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long long 
+long long long long long long long long long long long long long long long long text.
+]]
