@@ -1,6 +1,6 @@
 # Infobox_KARASPlugin
 
-This is pulugin for KARAS-php ver.
+This is pulgin for KARAS-php ver.
 You can make infobox like following image.
 
 ![sample](./sample.png)
