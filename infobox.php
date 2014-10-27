@@ -28,23 +28,21 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-// = How to Use.
-// 
-// Put infobox's css set into your directory, 
-// and write like following example.
-// (valid options : note, help, caution, warning, download)
-// 
-// [[infobox::
-// Plain style text.
-// ]]
+//= How to Use.
 //
-// [[infobox::note::
+//valid options(note, help, caution, warning, download)
+//
+//[[box:::
+// Plain style text.
+//]]
+//
+//[[box::note:::
 // note style text.
-// ]]
+//]]
 
 class InfoBox
 {
-    public static function convert($markedupText, $options)
+    public static function convert($options, $markedupText)
     {
         $result = "<div class=\"infobox";
         $className = "";
@@ -88,7 +86,7 @@ class InfoBox
             }
         }
 
-        return $result . "<div class=\"infobox_contents\">" . KARAS\KARAS::convert($markedupText) . "</div></div>";
+        return $result . "<div class=\"infobox_contents\">" . KARAS\KARAS::convert($markedupText, "", 1) . "</div></div>";
     }
 }
 
